@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Hotfix</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="GameFramework" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Live2D.Cubism" />
+    <Reference Include="UnityEngine.AnimationModule" />
+    <Reference Include="Unity.Timeline" />
+    <Reference Include="TrueSync" />
+    <Reference Include="Google.Protobuf" />
+    <Reference Include="Game" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="DOTween" />
+    <Reference Include="MagicaCloth" />
+    <Reference Include="AstarPathfindingProject" />
+    <Reference Include="UnityEngine.DirectorModule" />
+    <Reference Include="Cinemachine" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="LitJson" />
+    <Reference Include="UnityUIExtensions" />
+    <Reference Include="AK.Wwise.Unity.API.WwiseTypes" />
+    <Reference Include="ALINE" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="GameGraphics" />
+    <Reference Include="UnityEngine.ParticleSystemModule" />
+    <Reference Include="Unity.RenderPipelines.Core.Runtime" />
+    <Reference Include="Unity.InputSystem" />
+    <Reference Include="Coffee.UIEffectSnapshot" />
+    <Reference Include="ExcelDataReader" />
+    <Reference Include="System.Data" />
+    <Reference Include="NPOI.Core" />
+    <Reference Include="UIEffect" />
+    <Reference Include="DOTweenPro.Scripts" />
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime" />
+    <Reference Include="Unity.Mathematics" />
+    <Reference Include="AK.Wwise.Unity.MonoBehaviour" />
+    <Reference Include="AK.Wwise.Unity.API" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="SimpleAnimationComponent" />
+    <Reference Include="spine-unity" />
+    <Reference Include="spine-csharp" />
+    <Reference Include="UnityEngine.AIModule" />
+    <Reference Include="HybridCLR.Runtime" />
+    <Reference Include="UnityEngine.JSONSerializeModule" />
+    <Reference Include="DOTween.Modules" />
+    <Reference Include="ExcelDataReader.DataSet" />
+    <Reference Include="NPOI.OOXML" />
+    <Reference Include="DOTweenPro" />
+    <Reference Include="UnityEngine.Physics2DModule" />
+    <Reference Include="UnityEngine.ImageConversionModule" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,68 @@
+namespace AIScript.Character._15601;
+
+public class SkillScript_Skill_MainControl : SkillAdvancedBase
+{
+	protected override void OnSkillEnable()
+	{
+		//Discarded unreachable code: IL_002f
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0003: Unknown result type (might be due to invalid IL or missing references)
+		((short[])/*Error near IL_0003: Stack underflow*/)[checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/)] = 0;
+		_ = /*Error near IL_0004: Stack underflow*/+ /*Error near IL_0004: Stack underflow*/;
+		/*Error near IL_0004: Unknown opcode: 0xEC*/;
+	}
+
+	public void OnStart()
+	{
+		// ILSpy could not decompile this member: Error decompiling @06011818 AIScript.Character._15601.SkillScript_Skill_MainControl.OnStart: Invalid token. (Parameter 'token')
+		// Please report the exception below,
+		// along with the assembly it came from, at https://github.com/icsharpcode/ILSpy/issues/new
+		// Error decompiling @06011818 AIScript.Character._15601.SkillScript_Skill_MainControl.OnStart
+		// in assembly "D:\Libraries\Downloads\Hotfix_full.dll"
+		//  ---> System.ArgumentException: Invalid token. (Parameter 'token')
+		//    at System.Reflection.Throw.InvalidToken() in offset 15
+		//    at ICSharpCode.Decompiler.IL.ILReader.DecodeCall(OpCode opCode) in ILReader.cs:line 1760
+		//    at ICSharpCode.Decompiler.IL.ILReader.DecodeInstruction() in ILReader.cs:line 879
+		//    at ICSharpCode.Decompiler.IL.ILReader.ReadBlock(ImportedBlock block, CancellationToken cancellationToken) in ILReader.cs:line 539
+		//    at ICSharpCode.Decompiler.IL.ILReader.ReadInstructions(CancellationToken cancellationToken) in ILReader.cs:line 506
+		//    at ICSharpCode.Decompiler.IL.ILReader.ReadIL(MethodDefinitionHandle method, MethodBodyBlock body, GenericContext genericContext, ILFunctionKind kind, CancellationToken cancellationToken) in ILReader.cs:line 726
+		//    at ICSharpCode.Decompiler.CSharp.CSharpDecompiler.DecompileBody(IMethod method, EntityDeclaration entityDecl, DecompileRun decompileRun, ITypeResolveContext decompilationContext, ExtensionInfo extensionInfo) in CSharpDecompiler.cs:line 2412
+		// -- continuing with outer exception (ICSharpCode.Decompiler.DecompilerException) --
+		// 
+	}
+
+	private unsafe void OnCustomEvent(string eventName)
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_000c: Expected I4, but got F8
+		//IL_000d: Unknown result type (might be due to invalid IL or missing references)
+		((short[])/*Error near IL_000c: Stack underflow*/)[*(long*)(nint)checked(/*Error near IL_0001: Stack underflow*/ * /*Error near IL_0001: Stack underflow*/)] = 0;
+		*(_003F*)(nint)/*Error near IL_000d: Stack underflow*/ = /*Error near IL_000d: Stack underflow*/;
+		_ = /*Error near IL_000e: Stack underflow*/^ /*Error near IL_000e: Stack underflow*/;
+		/*Error near IL_000e: Unknown opcode: 0xE5*/;
+	}
+
+	private void OnFinish()
+	{
+		/*Error near IL_0001: Unknown opcode: 0xFD*/;
+	}
+
+	private void OnInterrupt()
+	{
+		/*Error: Read out of bounds.*/;
+	}
+
+	protected override void OnSkillDisable()
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0003: Unknown result type (might be due to invalid IL or missing references)
+		((sbyte[])/*Error near IL_0003: Stack underflow*/)[checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/)] = 0;
+		_ = /*Error near IL_0004: Stack underflow*/+ /*Error near IL_0004: Stack underflow*/;
+		/*Error near IL_0004: Unknown opcode: 0xEC*/;
+	}
+
+	public SkillScript_Skill_MainControl()
+	{
+		/*Error: Invalid field token*/;
+	}
+}

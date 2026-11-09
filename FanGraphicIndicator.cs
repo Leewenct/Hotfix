@@ -1,0 +1,192 @@
+using UnityEngine;
+using UnityEngine.UI.Extensions;
+
+public class FanGraphicIndicator : BaseGraphicIndicator
+{
+	public UICircle baseGraphic;
+
+	public UICircle progressGraphic;
+
+	protected float _size;
+
+	protected float _angle;
+
+	public unsafe override Color baseColor
+	{
+		get
+		{
+			//IL_0002: Expected F8, but got I4
+			*(double*)(nint)/*Error near IL_0002: Stack underflow*/ = *(sbyte*)(nint)/*Error near IL_0001: Stack underflow*/;
+			checked
+			{
+				_ = (ulong)/*Error near IL_0003: Stack underflow*/;
+				/*Error near IL_0003: ldloc 0 (out-of-bounds)*/;
+				/*Error near IL_0005: ldarg 2 (out-of-bounds)*/;
+				_ = 8;
+				_ = 2;
+				/*Error near IL_0009: Invalid branch target*/;
+			}
+		}
+		set
+		{
+			/*Error near IL_0001: Unknown opcode: 0xFD*/;
+		}
+	}
+
+	public unsafe override Color progressColor
+	{
+		get
+		{
+			//IL_0002: Expected F8, but got I4
+			*(double*)(nint)/*Error near IL_0002: Stack underflow*/ = *(sbyte*)(nint)/*Error near IL_0001: Stack underflow*/;
+			checked
+			{
+				_ = (short)/*Error near IL_0003: Stack underflow*/;
+				/*Error near IL_0003: ldloc 0 (out-of-bounds)*/;
+				/*Error near IL_0005: ldarg 2 (out-of-bounds)*/;
+				_ = 8;
+				_ = 2;
+				/*Error near IL_0009: Invalid branch target*/;
+			}
+		}
+		set
+		{
+			/*Error near IL_0001: Unknown opcode: 0xFD*/;
+		}
+	}
+
+	public float size
+	{
+		get
+		{
+			/*Error: Invalid field token*/;
+		}
+		set
+		{
+			//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+			checked
+			{
+				if (/*Error near IL_0006: Stack underflow*/ > /*Error near IL_0001: Stack underflow*/+ /*Error near IL_0001: Stack underflow*/)
+				{
+					/*Error: Invalid branch target*/;
+				}
+				_ = (ulong)/*Error near IL_0007: Stack underflow*/ * 1690587394;
+				/*Error near IL_000d: Invalid metadata token*/;
+			}
+		}
+	}
+
+	public float angle
+	{
+		get
+		{
+			/*Error: Invalid field token*/;
+		}
+		set
+		{
+			//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+			checked
+			{
+				if (/*Error near IL_0006: Stack underflow*/ > /*Error near IL_0001: Stack underflow*/+ /*Error near IL_0001: Stack underflow*/)
+				{
+					/*Error: Invalid branch target*/;
+				}
+				_ = (ulong)/*Error near IL_0007: Stack underflow*/ * 1690587394;
+				/*Error near IL_000d: Invalid metadata token*/;
+			}
+		}
+	}
+
+	protected override void RefreshBaseGraphic()
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0072: Expected I4, but got Unknown
+		switch (checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+		{
+		default:
+			/*Error: End of method reached without returning.*/;
+		case 0:
+			/*Error: Invalid branch target*/;
+		case 1:
+			/*Error: Invalid branch target*/;
+		case 2:
+			/*Error: Invalid branch target*/;
+		case 3:
+			/*Error: Invalid branch target*/;
+		case 4:
+			/*Error: Invalid branch target*/;
+		case 5:
+			/*Error: Invalid branch target*/;
+		case 6:
+			/*Error: Invalid branch target*/;
+		case 7:
+			/*Error: Invalid branch target*/;
+		case 8:
+			/*Error: Invalid branch target*/;
+		case 9:
+			/*Error: Invalid branch target*/;
+		case 10:
+			/*Error: Invalid branch target*/;
+		case 11:
+			/*Error: Invalid branch target*/;
+		case 12:
+			/*Error: Invalid branch target*/;
+		case 13:
+			/*Error: Invalid branch target*/;
+		case 14:
+			/*Error: Invalid branch target*/;
+		case 15:
+			/*Error: Invalid branch target*/;
+		case 16:
+			/*Error: Invalid branch target*/;
+		case 17:
+			/*Error: Invalid branch target*/;
+		case 18:
+			/*Error: Invalid branch target*/;
+		case 19:
+			/*Error: Invalid branch target*/;
+		case 20:
+			/*Error: Invalid branch target*/;
+		case 21:
+			/*Error: Invalid branch target*/;
+		case 22:
+			/*Error: Invalid branch target*/;
+		case 23:
+			/*Error: Invalid branch target*/;
+		case 24:
+			/*Error: Invalid branch target*/;
+		case 25:
+			/*Error: Invalid branch target*/;
+		case 26:
+			/*Error: Invalid branch target*/;
+		}
+	}
+
+	protected override void RefreshProgressGraphic()
+	{
+		// ILSpy could not decompile this member: Error decompiling @060015BD FanGraphicIndicator.RefreshProgressGraphic: Index was outside the bounds of the array.
+		// Please report the exception below,
+		// along with the assembly it came from, at https://github.com/icsharpcode/ILSpy/issues/new
+		// Error decompiling @060015BD FanGraphicIndicator.RefreshProgressGraphic
+		// in assembly "D:\Libraries\Downloads\Hotfix_full.dll"
+		//  ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+		//    at Internal.Runtime.CompilerHelpers.ThrowHelpers.ThrowIndexOutOfRangeException() in offset 5
+		//    at ICSharpCode.Decompiler.IL.ILReader.ReadBlock(ImportedBlock block, CancellationToken cancellationToken) in ILReader.cs:line 523
+		//    at ICSharpCode.Decompiler.IL.ILReader.ReadInstructions(CancellationToken cancellationToken) in ILReader.cs:line 506
+		//    at ICSharpCode.Decompiler.IL.ILReader.ReadIL(MethodDefinitionHandle method, MethodBodyBlock body, GenericContext genericContext, ILFunctionKind kind, CancellationToken cancellationToken) in ILReader.cs:line 726
+		//    at ICSharpCode.Decompiler.CSharp.CSharpDecompiler.DecompileBody(IMethod method, EntityDeclaration entityDecl, DecompileRun decompileRun, ITypeResolveContext decompilationContext, ExtensionInfo extensionInfo) in CSharpDecompiler.cs:line 2412
+		// -- continuing with outer exception (ICSharpCode.Decompiler.DecompilerException) --
+		// 
+	}
+
+	public FanGraphicIndicator()
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		checked
+		{
+			_ = /*Error near IL_0001: Stack underflow*/+ /*Error near IL_0001: Stack underflow*/;
+			_ = 6;
+			/*Error near IL_0002: Unknown opcode: 0xCB*/;
+		}
+	}
+}

@@ -1,0 +1,948 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using TrueSync;
+
+namespace AIScript.Character._16001;
+
+public class ParallelScript_MainControl : ParallelScript
+{
+	[CompilerGenerated]
+	private sealed class _003C_003Ec__DisplayClass13_0
+	{
+		public ParallelScript_MainControl _003C_003E4__this;
+
+		public long lastTargetId;
+
+		public Predicate<DeterministicCollider> _003C_003E9__2;
+
+		internal void _003CPerkLoigc_P4_003Eb__1(AreaEffectEntity areaEffect)
+		{
+			//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0031: Expected I4, but got Unknown
+			switch (checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+			{
+			default:
+				/*Error: End of method reached without returning.*/;
+			case 0:
+				/*Error: Invalid branch target*/;
+			case 1:
+				/*Error: Invalid branch target*/;
+			case 2:
+				/*Error: Invalid branch target*/;
+			case 3:
+				/*Error: Invalid branch target*/;
+			case 4:
+				/*Error: Invalid branch target*/;
+			case 5:
+				/*Error: Invalid branch target*/;
+			case 6:
+				/*Error: Invalid branch target*/;
+			case 7:
+				/*Error: Invalid branch target*/;
+			case 8:
+				/*Error: Invalid branch target*/;
+			case 9:
+				/*Error: Invalid branch target*/;
+			}
+		}
+
+		internal unsafe bool _003CPerkLoigc_P4_003Eb__2(DeterministicCollider x)
+		{
+			//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0002: Expected Obj, but got Unknown
+			System.Runtime.CompilerServices.Unsafe.Write((void*)(nint)/*Error near IL_0002: Stack underflow*/, (object)checked(/*Error near IL_0001: Stack underflow*/ * /*Error near IL_0001: Stack underflow*/));
+			_ = ((ushort[])/*Error near IL_0003: Stack underflow*/)[/*Error near IL_0003: Stack underflow*/];
+			/*Error near IL_0004: Unknown opcode: 0xEC*/;
+		}
+	}
+
+	[CompilerGenerated]
+	private sealed class _003CPerkLogic_P1_003Ed__16 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int _003C_003E1__state;
+
+		private object _003C_003E2__current;
+
+		public MonsterAdventureActor monster;
+
+		public ParallelScript_MainControl _003C_003E4__this;
+
+		private long _003CmonsterId_003E5__2;
+
+		private FP _003CdropInterval_003E5__3;
+
+		private int _003CdropCount_003E5__4;
+
+		private FP _003Cinterval_003E5__5;
+
+		object IEnumerator<object>.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				/*Error: Read out of bounds.*/;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				/*Error: Read out of bounds.*/;
+			}
+		}
+
+		[DebuggerHidden]
+		public _003CPerkLogic_P1_003Ed__16(int _003C_003E1__state)
+		{
+			if ((int)/*Error near IL_0002: Stack underflow*/ != 0)
+			{
+				/*Error: Invalid branch target*/;
+			}
+			/*Error near IL_0002: Unknown opcode: 0xBC*/;
+		}
+
+		[DebuggerHidden]
+		void IDisposable.Dispose()
+		{
+		}
+
+		private bool MoveNext()
+		{
+			//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+			//IL_018d: Expected I4, but got Unknown
+			switch (checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+			{
+			default:
+				/*Error: End of method reached without returning.*/;
+			case 0:
+				/*Error: Invalid branch target*/;
+			case 1:
+				/*Error: Invalid branch target*/;
+			case 2:
+				/*Error: Invalid branch target*/;
+			case 3:
+				/*Error: Invalid branch target*/;
+			case 4:
+				/*Error: Invalid branch target*/;
+			case 5:
+				/*Error: Invalid branch target*/;
+			case 6:
+				/*Error: Invalid branch target*/;
+			case 7:
+				/*Error: Invalid branch target*/;
+			case 8:
+				/*Error: Invalid branch target*/;
+			case 9:
+				/*Error: Invalid branch target*/;
+			case 10:
+				/*Error: Invalid branch target*/;
+			case 11:
+				/*Error: Invalid branch target*/;
+			case 12:
+				/*Error: Invalid branch target*/;
+			case 13:
+				/*Error: Invalid branch target*/;
+			case 14:
+				/*Error: Invalid branch target*/;
+			case 15:
+				/*Error: Invalid branch target*/;
+			case 16:
+				/*Error: Invalid branch target*/;
+			case 17:
+				/*Error: Invalid branch target*/;
+			case 18:
+				/*Error: Invalid branch target*/;
+			case 19:
+				/*Error: Invalid branch target*/;
+			case 20:
+				/*Error: Invalid branch target*/;
+			case 21:
+				/*Error: Invalid branch target*/;
+			case 22:
+				/*Error: Invalid branch target*/;
+			case 23:
+				/*Error: Invalid branch target*/;
+			case 24:
+				/*Error: Invalid branch target*/;
+			case 25:
+				/*Error: Invalid branch target*/;
+			case 26:
+				/*Error: Invalid branch target*/;
+			case 27:
+				/*Error: Invalid branch target*/;
+			case 28:
+				/*Error: Invalid branch target*/;
+			case 29:
+				/*Error: Invalid branch target*/;
+			case 30:
+				/*Error: Invalid branch target*/;
+			case 31:
+				/*Error: Invalid branch target*/;
+			case 32:
+				/*Error: Invalid branch target*/;
+			case 33:
+				/*Error: Invalid branch target*/;
+			case 34:
+				/*Error: Invalid branch target*/;
+			case 35:
+				/*Error: Invalid branch target*/;
+			case 36:
+				/*Error: Invalid branch target*/;
+			case 37:
+				/*Error: Invalid branch target*/;
+			case 38:
+				/*Error: Invalid branch target*/;
+			case 39:
+				/*Error: Invalid branch target*/;
+			case 40:
+				/*Error: Invalid branch target*/;
+			case 41:
+				/*Error: Invalid branch target*/;
+			case 42:
+				/*Error: Invalid branch target*/;
+			case 43:
+				/*Error: Invalid branch target*/;
+			case 44:
+				/*Error: Invalid branch target*/;
+			case 45:
+				/*Error: Invalid branch target*/;
+			case 46:
+				/*Error: Invalid branch target*/;
+			case 47:
+				/*Error: Invalid branch target*/;
+			case 48:
+				/*Error: Invalid branch target*/;
+			case 49:
+				/*Error: Invalid branch target*/;
+			case 50:
+				/*Error: Invalid branch target*/;
+			case 51:
+				/*Error: Invalid branch target*/;
+			case 52:
+				/*Error: Invalid branch target*/;
+			case 53:
+				/*Error: Invalid branch target*/;
+			case 54:
+				/*Error: Invalid branch target*/;
+			case 55:
+				/*Error: Invalid branch target*/;
+			case 56:
+				/*Error: Invalid branch target*/;
+			case 57:
+				/*Error: Invalid branch target*/;
+			case 58:
+				/*Error: Invalid branch target*/;
+			case 59:
+				/*Error: Invalid branch target*/;
+			case 60:
+				/*Error: Invalid branch target*/;
+			case 61:
+				/*Error: Invalid branch target*/;
+			case 62:
+				/*Error: Invalid branch target*/;
+			case 63:
+				/*Error: Invalid branch target*/;
+			case 64:
+				/*Error: Invalid branch target*/;
+			case 65:
+				/*Error: Invalid branch target*/;
+			case 66:
+				/*Error: Invalid branch target*/;
+			case 67:
+				/*Error: Invalid branch target*/;
+			case 68:
+				/*Error: Invalid branch target*/;
+			case 69:
+				/*Error: Invalid branch target*/;
+			case 70:
+				/*Error: Invalid branch target*/;
+			case 71:
+				/*Error: Invalid branch target*/;
+			case 72:
+				/*Error: Invalid branch target*/;
+			case 73:
+				/*Error: Invalid branch target*/;
+			case 74:
+				/*Error: Invalid branch target*/;
+			case 75:
+				/*Error: Invalid branch target*/;
+			case 76:
+				/*Error: Invalid branch target*/;
+			case 77:
+				/*Error: Invalid branch target*/;
+			case 78:
+				/*Error: Invalid branch target*/;
+			case 79:
+				/*Error: Invalid branch target*/;
+			case 80:
+				/*Error: Invalid branch target*/;
+			case 81:
+				/*Error: Invalid branch target*/;
+			case 82:
+				/*Error: Invalid branch target*/;
+			case 83:
+				/*Error: Invalid branch target*/;
+			case 84:
+				/*Error: Invalid branch target*/;
+			case 85:
+				/*Error: Invalid branch target*/;
+			case 86:
+				/*Error: Invalid branch target*/;
+			case 87:
+				/*Error: Invalid branch target*/;
+			case 88:
+				/*Error: Invalid branch target*/;
+			case 89:
+				/*Error: Invalid branch target*/;
+			case 90:
+				/*Error: Invalid branch target*/;
+			case 91:
+				/*Error: Invalid branch target*/;
+			case 92:
+				/*Error: Invalid branch target*/;
+			case 93:
+				/*Error: Invalid branch target*/;
+			case 94:
+				/*Error: Invalid branch target*/;
+			case 95:
+				/*Error: Invalid branch target*/;
+			case 96:
+				/*Error: Invalid branch target*/;
+			}
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+
+		[DebuggerHidden]
+		void IEnumerator.Reset()
+		{
+			_ = (double)/*Error near IL_0002: Stack underflow*/;
+			/*Error near IL_0002: Read out of bounds.*/;
+		}
+	}
+
+	[CompilerGenerated]
+	private sealed class _003CPerkLoigc_P4_003Ed__13 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int _003C_003E1__state;
+
+		private object _003C_003E2__current;
+
+		public ParallelScript_MainControl _003C_003E4__this;
+
+		public TSVector2 position;
+
+		private _003C_003Ec__DisplayClass13_0 _003C_003E8__1;
+
+		private long _003CareaEffectId_003E5__2;
+
+		private int _003CreboundCount_003E5__3;
+
+		private List<DeterministicCollider> _003CtargetColliders_003E5__4;
+
+		private bool _003CcanReboundSummoned_003E5__5;
+
+		object IEnumerator<object>.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				/*Error: Read out of bounds.*/;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				/*Error: Read out of bounds.*/;
+			}
+		}
+
+		[DebuggerHidden]
+		public _003CPerkLoigc_P4_003Ed__13(int _003C_003E1__state)
+		{
+			if ((int)/*Error near IL_0002: Stack underflow*/ != 0)
+			{
+				/*Error: Invalid branch target*/;
+			}
+			/*Error near IL_0002: Unknown opcode: 0xBC*/;
+		}
+
+		[DebuggerHidden]
+		void IDisposable.Dispose()
+		{
+		}
+
+		private bool MoveNext()
+		{
+			//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0237: Expected I4, but got Unknown
+			switch (checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+			{
+			default:
+				/*Error: End of method reached without returning.*/;
+			case 0:
+				/*Error: Invalid branch target*/;
+			case 1:
+				/*Error: Invalid branch target*/;
+			case 2:
+				/*Error: Invalid branch target*/;
+			case 3:
+				/*Error: Invalid branch target*/;
+			case 4:
+				/*Error: Invalid branch target*/;
+			case 5:
+				/*Error: Invalid branch target*/;
+			case 6:
+				/*Error: Invalid branch target*/;
+			case 7:
+				/*Error: Invalid branch target*/;
+			case 8:
+				/*Error: Invalid branch target*/;
+			case 9:
+				/*Error: Invalid branch target*/;
+			case 10:
+				/*Error: Invalid branch target*/;
+			case 11:
+				/*Error: Invalid branch target*/;
+			case 12:
+				/*Error: Invalid branch target*/;
+			case 13:
+				/*Error: Invalid branch target*/;
+			case 14:
+				/*Error: Invalid branch target*/;
+			case 15:
+				/*Error: Invalid branch target*/;
+			case 16:
+				/*Error: Invalid branch target*/;
+			case 17:
+				/*Error: Invalid branch target*/;
+			case 18:
+				/*Error: Invalid branch target*/;
+			case 19:
+				/*Error: Invalid branch target*/;
+			case 20:
+				/*Error: Invalid branch target*/;
+			case 21:
+				/*Error: Invalid branch target*/;
+			case 22:
+				/*Error: Invalid branch target*/;
+			case 23:
+				/*Error: Invalid branch target*/;
+			case 24:
+				/*Error: Invalid branch target*/;
+			case 25:
+				/*Error: Invalid branch target*/;
+			case 26:
+				/*Error: Invalid branch target*/;
+			case 27:
+				/*Error: Invalid branch target*/;
+			case 28:
+				/*Error: Invalid branch target*/;
+			case 29:
+				/*Error: Invalid branch target*/;
+			case 30:
+				/*Error: Invalid branch target*/;
+			case 31:
+				/*Error: Invalid branch target*/;
+			case 32:
+				/*Error: Invalid branch target*/;
+			case 33:
+				/*Error: Invalid branch target*/;
+			case 34:
+				/*Error: Invalid branch target*/;
+			case 35:
+				/*Error: Invalid branch target*/;
+			case 36:
+				/*Error: Invalid branch target*/;
+			case 37:
+				/*Error: Invalid branch target*/;
+			case 38:
+				/*Error: Invalid branch target*/;
+			case 39:
+				/*Error: Invalid branch target*/;
+			case 40:
+				/*Error: Invalid branch target*/;
+			case 41:
+				/*Error: Invalid branch target*/;
+			case 42:
+				/*Error: Invalid branch target*/;
+			case 43:
+				/*Error: Invalid branch target*/;
+			case 44:
+				/*Error: Invalid branch target*/;
+			case 45:
+				/*Error: Invalid branch target*/;
+			case 46:
+				/*Error: Invalid branch target*/;
+			case 47:
+				/*Error: Invalid branch target*/;
+			case 48:
+				/*Error: Invalid branch target*/;
+			case 49:
+				/*Error: Invalid branch target*/;
+			case 50:
+				/*Error: Invalid branch target*/;
+			case 51:
+				/*Error: Invalid branch target*/;
+			case 52:
+				/*Error: Invalid branch target*/;
+			case 53:
+				/*Error: Invalid branch target*/;
+			case 54:
+				/*Error: Invalid branch target*/;
+			case 55:
+				/*Error: Invalid branch target*/;
+			case 56:
+				/*Error: Invalid branch target*/;
+			case 57:
+				/*Error: Invalid branch target*/;
+			case 58:
+				/*Error: Invalid branch target*/;
+			case 59:
+				/*Error: Invalid branch target*/;
+			case 60:
+				/*Error: Invalid branch target*/;
+			case 61:
+				/*Error: Invalid branch target*/;
+			case 62:
+				/*Error: Invalid branch target*/;
+			case 63:
+				/*Error: Invalid branch target*/;
+			case 64:
+				/*Error: Invalid branch target*/;
+			case 65:
+				/*Error: Invalid branch target*/;
+			case 66:
+				/*Error: Invalid branch target*/;
+			case 67:
+				/*Error: Invalid branch target*/;
+			case 68:
+				/*Error: Invalid branch target*/;
+			case 69:
+				/*Error: Invalid branch target*/;
+			case 70:
+				/*Error: Invalid branch target*/;
+			case 71:
+				/*Error: Invalid branch target*/;
+			case 72:
+				/*Error: Invalid branch target*/;
+			case 73:
+				/*Error: Invalid branch target*/;
+			case 74:
+				/*Error: Invalid branch target*/;
+			case 75:
+				/*Error: Invalid branch target*/;
+			case 76:
+				/*Error: Invalid branch target*/;
+			case 77:
+				/*Error: Invalid branch target*/;
+			case 78:
+				/*Error: Invalid branch target*/;
+			case 79:
+				/*Error: Invalid branch target*/;
+			case 80:
+				/*Error: Invalid branch target*/;
+			case 81:
+				/*Error: Invalid branch target*/;
+			case 82:
+				/*Error: Invalid branch target*/;
+			case 83:
+				/*Error: Invalid branch target*/;
+			case 84:
+				/*Error: Invalid branch target*/;
+			case 85:
+				/*Error: Invalid branch target*/;
+			case 86:
+				/*Error: Invalid branch target*/;
+			case 87:
+				/*Error: Invalid branch target*/;
+			case 88:
+				/*Error: Invalid branch target*/;
+			case 89:
+				/*Error: Invalid branch target*/;
+			case 90:
+				/*Error: Invalid branch target*/;
+			case 91:
+				/*Error: Invalid branch target*/;
+			case 92:
+				/*Error: Invalid branch target*/;
+			case 93:
+				/*Error: Invalid branch target*/;
+			case 94:
+				/*Error: Invalid branch target*/;
+			case 95:
+				/*Error: Invalid branch target*/;
+			case 96:
+				/*Error: Invalid branch target*/;
+			case 97:
+				/*Error: Invalid branch target*/;
+			case 98:
+				/*Error: Invalid branch target*/;
+			case 99:
+				/*Error: Invalid branch target*/;
+			case 100:
+				/*Error: Invalid branch target*/;
+			case 101:
+				/*Error: Invalid branch target*/;
+			case 102:
+				/*Error: Invalid branch target*/;
+			case 103:
+				/*Error: Invalid branch target*/;
+			case 104:
+				/*Error: Invalid branch target*/;
+			case 105:
+				/*Error: Invalid branch target*/;
+			case 106:
+				/*Error: Invalid branch target*/;
+			case 107:
+				/*Error: Invalid branch target*/;
+			case 108:
+				/*Error: Invalid branch target*/;
+			case 109:
+				/*Error: Invalid branch target*/;
+			case 110:
+				/*Error: Invalid branch target*/;
+			case 111:
+				/*Error: Invalid branch target*/;
+			case 112:
+				/*Error: Invalid branch target*/;
+			case 113:
+				/*Error: Invalid branch target*/;
+			case 114:
+				/*Error: Invalid branch target*/;
+			case 115:
+				/*Error: Invalid branch target*/;
+			case 116:
+				/*Error: Invalid branch target*/;
+			case 117:
+				/*Error: Invalid branch target*/;
+			case 118:
+				/*Error: Invalid branch target*/;
+			case 119:
+				/*Error: Invalid branch target*/;
+			case 120:
+				/*Error: Invalid branch target*/;
+			case 121:
+				/*Error: Invalid branch target*/;
+			case 122:
+				/*Error: Invalid branch target*/;
+			case 123:
+				/*Error: Invalid branch target*/;
+			case 124:
+				/*Error: Invalid branch target*/;
+			case 125:
+				/*Error: Invalid branch target*/;
+			case 126:
+				/*Error: Invalid branch target*/;
+			case 127:
+				/*Error: Invalid branch target*/;
+			case 128:
+				/*Error: Invalid branch target*/;
+			case 129:
+				/*Error: Invalid branch target*/;
+			case 130:
+				/*Error: Invalid branch target*/;
+			case 131:
+				/*Error: Invalid branch target*/;
+			case 132:
+				/*Error: Invalid branch target*/;
+			case 133:
+				/*Error: Invalid branch target*/;
+			case 134:
+				/*Error: Invalid branch target*/;
+			case 135:
+				/*Error: Invalid branch target*/;
+			case 136:
+				/*Error: Invalid branch target*/;
+			case 137:
+				/*Error: Invalid branch target*/;
+			case 138:
+				/*Error: Invalid branch target*/;
+			case 139:
+				/*Error: Invalid branch target*/;
+			}
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+
+		[DebuggerHidden]
+		void IEnumerator.Reset()
+		{
+			_ = (double)/*Error near IL_0002: Stack underflow*/;
+			/*Error near IL_0002: Read out of bounds.*/;
+		}
+	}
+
+	private MonsterAdventureActor _summoned;
+
+	private FP _lastTriggerTime_AddBuff_Summoned;
+
+	private Dictionary<long, CoroutineNode> _genBubbleCorDic_P1;
+
+	private readonly List<int> _summonedDataIdList_P1;
+
+	private FP _lastTriggerTime_P12;
+
+	protected override int BuffId_Decibel_Empty
+	{
+		get
+		{
+			((IntPtr[])/*Error near IL_0001: Stack underflow*/)[/*Error near IL_0001: Stack underflow*/] = (IntPtr)/*Error near IL_0001: Stack underflow*/;
+			/*Error near IL_0002: Read out of bounds.*/;
+		}
+	}
+
+	protected override int BuffId_Decibel_Stack
+	{
+		get
+		{
+			((IntPtr[])/*Error near IL_0001: Stack underflow*/)[/*Error near IL_0001: Stack underflow*/] = (IntPtr)/*Error near IL_0001: Stack underflow*/;
+			/*Error near IL_0001: Unknown opcode: 0xF2*/;
+		}
+	}
+
+	protected override int BuffId_Decibel_Max
+	{
+		get
+		{
+			//IL_0003: Unknown result type (might be due to invalid IL or missing references)
+			((IntPtr[])/*Error near IL_0001: Stack underflow*/)[/*Error near IL_0001: Stack underflow*/] = (IntPtr)/*Error near IL_0001: Stack underflow*/;
+			/*Error near IL_0001: stloc 121 (out-of-bounds)*/;
+			if (/*Error near IL_0006: Stack underflow*/ == (/*Error near IL_0004: Stack underflow*/ | /*Error near IL_0004: Stack underflow*/))
+			{
+				/*Error: Invalid branch target*/;
+			}
+			/*Error: End of method reached without returning.*/;
+		}
+	}
+
+	public override void OnEnable()
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0002: Invalid comparison between Unknown and I4
+		//IL_000c: Unknown result type (might be due to invalid IL or missing references)
+		//IL_000f->IL0002: Incompatible stack heights: 0 vs 2
+		checked
+		{
+			_003F val = /*Error near IL_0001: Stack underflow*/+ /*Error near IL_0001: Stack underflow*/;
+			while (true)
+			{
+				if (unchecked((int)val) <= 0)
+				{
+					/*Error: Invalid branch target*/;
+				}
+				if (/*Error near IL_000c: Stack underflow*/ >= /*Error near IL_000c: Stack underflow*/)
+				{
+					/*Error: Invalid branch target*/;
+				}
+				_ = /*Error near IL_000d: Stack underflow*/+ /*Error near IL_000d: Stack underflow*/;
+			}
+		}
+	}
+
+	protected override void OnReceiveCustomEvent(AdventureActorCustomEvent customEvent)
+	{
+		//Discarded unreachable code: IL_00d9
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0007: Invalid comparison between Unknown and I
+		if (/*Error near IL_0006: Stack underflow*/ > checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		if ((nint)/*Error near IL_0009: Stack underflow*/ <= (nint)checked((nuint)/*Error near IL_0007: Stack underflow*/))
+		{
+			_ = ((int[])/*Error near IL_000a: Stack underflow*/)[/*Error near IL_000a: Stack underflow*/];
+			/*Error near IL_000a: Unknown opcode: 0xBE*/;
+		}
+		/*Error near IL_0087: Unknown opcode: 0xF6*/;
+	}
+
+	[IteratorStateMachine(typeof(_003CPerkLoigc_P4_003Ed__13))]
+	private IEnumerator PerkLoigc_P4(TSVector2 position)
+	{
+		/*Error: Unknown opcode: 0xEB*/;
+	}
+
+	protected override void OnGetBuff(AdventureActorGetBuff getBuffEvent)
+	{
+		//Discarded unreachable code: IL_0102
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0007: Invalid comparison between Unknown and I
+		if (/*Error near IL_0006: Stack underflow*/ > checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		if ((nint)/*Error near IL_0009: Stack underflow*/ <= (nint)checked((nuint)/*Error near IL_0007: Stack underflow*/))
+		{
+			/*Error near IL_0009: Unknown opcode: 0xAC*/;
+		}
+		/*Error near IL_007e: Unknown opcode: 0xCD*/;
+	}
+
+	protected override void OnRemoveBuff(AdventureActorRemoveBuff removeBuffEvent)
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0007: Invalid comparison between Unknown and I
+		if (/*Error near IL_0006: Stack underflow*/ > checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		if ((nint)/*Error near IL_0009: Stack underflow*/ <= (nint)checked((nuint)/*Error near IL_0007: Stack underflow*/))
+		{
+			/*Error near IL_0009: Unknown opcode: 0xAC*/;
+		}
+		/*Error near IL_007e: Unknown opcode: 0xEA*/;
+	}
+
+	[IteratorStateMachine(typeof(_003CPerkLogic_P1_003Ed__16))]
+	private IEnumerator PerkLogic_P1(MonsterAdventureActor monster)
+	{
+		/*Error: Unknown opcode: 0xEB*/;
+	}
+
+	protected override void OnDecibelChange(bool isAdd, bool isConsume)
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		if (/*Error near IL_0006: Stack underflow*/ > checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		/*Error near IL_0006: Not a type handle*/;
+	}
+
+	protected override void OnBeforeSelfHit(AdventureActorReceiveDamageBeforeHitEvent beforeHitEvent)
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0007: Invalid comparison between Unknown and I
+		//IL_0084: Unknown result type (might be due to invalid IL or missing references)
+		if (/*Error near IL_0006: Stack underflow*/ > checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		if ((nint)/*Error near IL_0009: Stack underflow*/ <= (nint)checked((nuint)/*Error near IL_0007: Stack underflow*/))
+		{
+			int num = (int)/*Error near IL_000a: Stack underflow*/;
+			/*Error near IL_000a: Unknown opcode: 0xBD*/;
+		}
+		((int[])/*Error near IL_007f: Stack underflow*/)[/*Error near IL_007f: Stack underflow*/] = (int)/*Error near IL_007f: Stack underflow*/;
+		if (/*Error near IL_0084: Stack underflow*/ < /*Error near IL_0084: Stack underflow*/)
+		{
+			/*Error: Invalid branch target*/;
+		}
+		_ = /*Error near IL_0085: Stack underflow*/| /*Error near IL_0085: Stack underflow*/;
+		_ = 7;
+		/*Error near IL_0086: Invalid metadata token*/;
+	}
+
+	protected override void OnBeforePlayerHit(AdventureActorReceiveDamageBeforeHitEvent beforeHitEvent)
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0007: Invalid comparison between Unknown and I
+		if (/*Error near IL_0006: Stack underflow*/ > checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		if ((nint)/*Error near IL_0009: Stack underflow*/ > (nint)checked((nuint)/*Error near IL_0007: Stack underflow*/))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		/*Error near IL_000a: Unknown opcode: 0xBD*/;
+	}
+
+	protected override void OnSelfDamaged(AdventureActorReceiveDamageEvent damageEvent)
+	{
+		//Discarded unreachable code: IL_006f, IL_007e, IL_0149, IL_015f
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0007: Invalid comparison between Unknown and I
+		//IL_0009: Unknown result type (might be due to invalid IL or missing references)
+		if (/*Error near IL_0006: Stack underflow*/ > checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		if ((nint)/*Error near IL_0009: Stack underflow*/ > (nint)checked((nuint)/*Error near IL_0007: Stack underflow*/))
+		{
+			/*Error: Could not find block for branch target IL_007e*/;
+		}
+		_ = /*Error near IL_000a: Stack underflow*/| /*Error near IL_000a: Stack underflow*/;
+		/*Error near IL_000a: Unknown opcode: 0xBD*/;
+	}
+
+	private unsafe void OnDropItemBegin(IEvent evt)
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		_ = *(uint*)(nint)checked(/*Error near IL_0001: Stack underflow*/ * /*Error near IL_0001: Stack underflow*/);
+		/*Error near IL_0002: Invalid metadata token*/;
+	}
+
+	protected unsafe override void OnElementMarkTrigger(AdventureElementMarkTriggerEvent elementMarkTriggerEvent)
+	{
+		//Discarded unreachable code: IL_0076
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0007: Invalid comparison between Unknown and I
+		//IL_0021: Invalid comparison between Unknown and Obj
+		if (/*Error near IL_0006: Stack underflow*/ > checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		if ((nint)/*Error near IL_0009: Stack underflow*/ <= (nint)checked((nuint)/*Error near IL_0007: Stack underflow*/))
+		{
+			/*Error near IL_0009: Unknown opcode: 0xF6*/;
+		}
+		object obj = System.Runtime.CompilerServices.Unsafe.Read<object>((void*)(nint)/*Error near IL_0021: Stack underflow*/);
+		if (System.Runtime.CompilerServices.Unsafe.As<_003F, UIntPtr>(ref /*Error near IL_0026: Stack underflow*/) < System.Runtime.CompilerServices.Unsafe.As<object, UIntPtr>(ref obj))
+		{
+			/*Error: Invalid branch target*/;
+		}
+		throw /*Error near IL_0029: Stack underflow*/;
+	}
+
+	private unsafe void OnSummonedSpawn(IEvent evt)
+	{
+		//Discarded unreachable code: IL_00b3
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		_ = ~(*(uint*)(nint)checked(/*Error near IL_0001: Stack underflow*/ * /*Error near IL_0001: Stack underflow*/));
+		/*Error near IL_0003: Invalid field token*/;
+	}
+
+	private void OnMonsterDied(IEvent evt)
+	{
+		//Discarded unreachable code: IL_008d
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		/*Error near IL_0002: Invalid metadata token*/;
+	}
+
+	public override void OnDisable()
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0002: Unknown result type (might be due to invalid IL or missing references)
+		checked
+		{
+			_ = (ulong)(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/>> 0);
+			/*Error near IL_0004: Unknown opcode: 0xED*/;
+		}
+	}
+
+	public unsafe ParallelScript_MainControl()
+	{
+		//IL_0000: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0002: Unknown result type (might be due to invalid IL or missing references)
+		_ = /*Error near IL_0003: Stack underflow*// (nint)(*(IntPtr*)(nint)checked(/*Error near IL_0001: Stack underflow*/ + /*Error near IL_0001: Stack underflow*/));
+		/*Error near IL_0004: Unknown opcode: 0xEC*/;
+	}
+}
